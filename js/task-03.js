@@ -29,6 +29,5 @@ itemsOfList.forEach((element) => {
   element.classList.add("item");
 });
 
-// list.style.listStyle = "none";
-// list.style.display = "flex";
+// list.style.width = "500px";
 console.log(list);
