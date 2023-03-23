@@ -3,12 +3,8 @@ const inputEl = document.querySelector("#validation-input");
 inputEl.addEventListener("focus", onInputFocus);
 inputEl.addEventListener("blur", onInputBlur);
 
-function onInputFocus() {
-  console.log("Input in focus");
-}
+function onInputFocus() {}
 function onInputBlur() {
-  console.log("Input in blur");
-
   if (
     inputEl.value.length === Number(inputEl.dataset.length) &&
     inputEl.classList.contains("invalid")
