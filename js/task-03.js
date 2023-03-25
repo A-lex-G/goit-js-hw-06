@@ -26,7 +26,7 @@ list.classList.add("list");
 
 const itemsOfList = document.querySelectorAll("li");
 itemsOfList.forEach((element) => {
-  element.classList.add("item");
+  element.classList.add("list-item");
 });
 
 // list.style.width = "500px";
